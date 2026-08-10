@@ -1,0 +1,65 @@
+! Title: My Filters
+! Expires: 7 days
+
+! Youtube
+! Sign in
+m.youtube.com##.mobile-topbar-header-sign-in-button
+youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
+
+! Header
+m.youtube.com##ytm-topbar-menu-button-renderer
+
+! Bottom slide
+m.youtube.com##.pivot-bar-slide-in
+
+! Left side
+youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+
+! Homepage
+m.youtube.com##[tab-identifier="FEwhat_to_watch"]
+youtube.com##[page-subtype="home"] .grid-disabled.grid.ytd-browse.style-scope > .ytd-two-column-browse-results-renderer.style-scope
+
+! Up next
+m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! more videos
+m.youtube.com##.ytmFullscreenRelatedVideosEntryPointViewModelButton
+
+! bottom bar
+!youtube.com##ytm-pivot-bar-renderer
+
+! Caption Button
+m.youtube.com##yt-closed-captions-toggle-button
+youtube.com##.ytp-button.ytp-subtitles-button
+
+! Autoplay Button
+m.youtube.com##.ytwPlayerAutonavToggleHost
+youtube.com##.ytp-autonav-toggle.ytp-button
+
+! Voice Search Button
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+m.youtube.com##.icon-microphone_on.mobile-topbar-header-voice-search-button
+youtube.com###voice-search-button
+
+! Channel Logo
+youtube.com##.ytp-button.branding-img-container
+
+1 Premium 3x Speed
+youtube.com##div.ytp-variable-speed-panel-preset-button-wrapper:nth-of-type(6)
+
+
+!----------------------------------------------------------------------------
+
+
+! facebook (bypass signin for desktop)
+facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
+facebook.com##+js(aeld, scroll)
+facebook.com##body > div[class*="__fb-light-mode"]
+
+! google doubleclick
+||doubleclick.net^$important
+||google-analytics.com^$important
+
+! meet camera and mic popup
+meet.google.com##.TzAhtb.X2mOrf.ddIcCe.P9KVBf.TZFSLb
