@@ -1,0 +1,7 @@
+! Title: Block AI Slop
+! Expires: 7 days
+
+! google ai overview
+google.com###slim_appbar
+google.com###Odp5De > div.YNk70c.EjQTId:nth-of-type(1) > .Kevs9.SLPe5b
+google.com###oFNiHe
