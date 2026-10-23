@@ -5,3 +5,6 @@
 google.com###slim_appbar
 google.com###Odp5De > div.YNk70c.EjQTId:nth-of-type(1) > .Kevs9.SLPe5b
 google.com###oFNiHe
+google.com##.s7d4ef.X6JNf.PFXse
+google.com##.h7Tj7e
+google.com###B2Jtyd
